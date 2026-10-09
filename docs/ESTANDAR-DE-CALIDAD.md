@@ -1,60 +1,71 @@
-# Estándar de calidad Ocarina 1.0
+# Criterios de calidad Ocarina · Adaptables a cada obra
 
-Este estándar sirve para páginas web, mapas históricos, videojuegos, libros digitales, documentos, ilustraciones y producciones audiovisuales. Adaptar la lista al formato; no exigir a todos los proyectos la misma tecnología.
+Este documento no impone una receta única. Sirve para cuidar la intención, el contenido, la experiencia y la realización de proyectos muy diferentes: mapas históricos, libros, documentos, dibujos, cómics, juegos, sitios, aplicaciones, documentales, archivos y propuestas culturales.
 
-## 1. Propósito y público
-- ¿Qué necesidad concreta resuelve?
-- ¿Para quién está hecho y en qué contexto lo usará?
-- ¿Qué debería poder hacer o comprender una persona en el primer minuto?
-- ¿Qué queda fuera del alcance?
+## 1. La intención
 
-## 2. Veracidad y curaduría
-- Separar hechos documentados, interpretaciones, testimonios, hipótesis y ficción.
-- Guardar título de la fuente, institución/autor, enlace o referencia, fecha de consulta y dato que respalda.
-- En historia local, priorizar documentos primarios y fuentes institucionales cuando existan; contrastar afirmaciones importantes.
-- En ciencia y naturaleza, indicar nombre común/científico cuando corresponda, distribución y límites de la evidencia.
-- No usar “oficial”, “confirmado” o “verificado” sin evidencia suficiente.
-- Revisar ortografía, fechas, nombres propios, topónimos, unidades y consistencia interna.
+- ¿Qué inspiró la obra y qué quiere explorar o compartir?
+- ¿Qué relación tiene con San Patricio del Chañar, su historia, su gente, su cultura, su naturaleza o su territorio?
+- ¿Para quién se crea?
+- ¿Qué experiencia, descubrimiento, emoción o utilidad queremos ofrecer?
+- ¿Qué aspecto debe conservarse aunque cambie el formato?
 
-## 3. Derechos y atribución
-- Registrar autoría y licencia de fotos, mapas, tipografías, música, video, ilustraciones y textos.
-- No asumir que una imagen encontrada en internet es reutilizable.
-- Conservar créditos visibles y enlaces requeridos por la licencia.
-- Evitar datos personales innecesarios y obtener permiso antes de publicar material sensible.
+## 2. La forma adecuada
 
-## 4. Diseño y experiencia
-- Diseñar primero para móvil; verificar también escritorio y tamaños intermedios.
-- Una acción principal clara por pantalla o sección.
-- Jerarquía visual evidente; texto breve y escaneable, con contenido profundo detrás de puertas claras.
-- Contraste suficiente, foco de teclado visible, botones legibles y controles utilizables sin precisión extrema.
-- Evitar superposiciones, scroll horizontal accidental, popups invasivos y enlaces que sorprendan.
-- Imágenes relevantes, bien encuadradas, optimizadas y con texto alternativo útil.
-- Mantener identidad visual coherente sin sacrificar legibilidad.
+- ¿Qué formato expresa mejor la idea: mapa, texto, ilustración, audiovisual, juego, web, publicación, actividad o combinación?
+- ¿La primera versión puede ser pequeña y exploratoria?
+- ¿La tecnología elegida está al servicio de la idea?
+- ¿La complejidad interna mejora realmente la obra o solo la vuelve más difícil de sostener?
 
-## 5. Calidad técnica
-- Comprobar consola y errores visibles en el navegador cuando sea posible.
-- Verificar enlaces, imágenes, rutas relativas, navegación, formularios y estados vacíos.
-- Confirmar que no haya secretos, tokens, claves API ni datos privados en archivos públicos.
-- Probar recarga, vuelta atrás, conexión lenta y ausencia de datos externos.
-- Evitar dependencias innecesarias y documentar las que sean críticas.
-- No incorporar backend, base de datos ni servicios pagos sin una necesidad demostrada.
+## 3. Contenido, memoria y evidencia
 
-## 6. Seguridad y preservación
-- Revisar el estado inicial antes de editar.
-- Hacer un cambio acotado por commit y explicar el motivo.
-- No borrar ni reemplazar archivos desconocidos sin inspeccionarlos.
-- Mantener una vía de recuperación: historial Git, copia o versión etiquetada.
-- Proteger proyectos congelados; los cambios autorizados deben respetar su alcance.
-- No desplegar ni sincronizar cambios con otros proyectos sin autorización expresa.
+- Distinguir hechos documentados, testimonios, interpretaciones, hipótesis y ficción cuando la diferencia sea importante.
+- En historia local, priorizar fuentes primarias y contrastar afirmaciones relevantes.
+- En ciencia y naturaleza, indicar fuentes, límites de la evidencia y nombres apropiados cuando corresponda.
+- No presentar una recreación como fotografía documental ni una referencia regional como registro local.
+- Corregir nombres, fechas, topónimos, unidades y contexto.
+- Dejar visibles las preguntas que aún no se han podido resolver.
 
-## 7. Cierre de trabajo
-Cada tarea debe indicar:
-- Qué se cambió.
-- Archivos afectados.
-- Qué pruebas se ejecutaron y su resultado.
-- Qué no se pudo probar.
-- Riesgos o pendientes.
-- Cómo revertir el cambio.
+## 4. Sensibilidad territorial y humana
 
-## Criterio de salida
-Una pieza no está “terminada” solo porque abre. Debe cumplir su propósito, ser comprensible, mostrar información fiable, funcionar en los dispositivos objetivo y tener derechos/atribuciones revisados.
+- Tratar a las personas y comunidades con respeto y contexto.
+- Considerar la memoria local, el patrimonio y las distintas experiencias del territorio.
+- Evitar presentar como voz de toda la comunidad lo que corresponde a una sola persona.
+- En contenidos de fauna y flora, respetar la vida y las reglas particulares del proyecto.
+- Cuidar datos personales y materiales sensibles.
+
+## 5. Diseño y experiencia
+
+- La obra debe tener una identidad propia y reconocible.
+- La entrada debe invitar a continuar sin exigir leer instrucciones extensas.
+- La profundidad puede existir detrás de recorridos sencillos.
+- Cuidar composición, jerarquía, ritmo, tipografía, color, sonido, imágenes y lenguaje según el medio.
+- En productos digitales, revisar móvil, escritorio, legibilidad, navegación, accesibilidad y estados de error.
+- En publicaciones físicas, revisar tamaño, márgenes, contraste, impresión y lectura.
+- En audiovisual, revisar ritmo, sonido, subtítulos, encuadre y créditos.
+
+## 6. Autoría, fuentes y derechos
+
+- Registrar autoría y procedencia de imágenes, mapas, textos, tipografías, música, video y materiales de terceros.
+- No asumir que algo encontrado en internet puede reutilizarse.
+- Respetar licencias y atribuciones.
+- Distinguir con claridad las contribuciones propias, las fuentes y las herramientas utilizadas.
+
+## 7. Calidad técnica cuando corresponda
+
+- Comprobar enlaces, recursos, navegación, carga y errores en sitios o aplicaciones.
+- Probar controles, guardado y progresión en videojuegos.
+- Revisar exportación, resolución y legibilidad en documentos e imágenes.
+- Evitar dependencias o servicios pagos que no sean necesarios.
+- Proteger archivos y versiones ya estables.
+- No publicar, reemplazar o sincronizar un proyecto existente sin autorización correspondiente.
+
+## 8. Cierre de una etapa
+
+- ¿Qué se creó y qué parte de la inspiración conserva?
+- ¿Qué se probó y qué falta?
+- ¿Qué fuentes, créditos o permisos quedan pendientes?
+- ¿Cuál es el siguiente paso concreto?
+- ¿La obra está lista, es un prototipo, sigue en investigación o queda en pausa?
+
+**La calidad no significa que todas las obras se parezcan. Significa que cada una alcanza su propósito y está hecha con intención, cuidado y honestidad.**
