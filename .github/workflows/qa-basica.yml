@@ -1,0 +1,58 @@
+name: QA básica de la Mesa
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  revisar-documentacion:
+    name: Revisar archivos esenciales
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Verificar documentos principales
+        shell: bash
+        run: |
+          set -euo pipefail
+          required_files=(
+            "README.md"
+            "CHANGELOG.md"
+            "docs/ESTANDAR-DE-CALIDAD.md"
+            "docs/FLUJO-DE-TRABAJO.md"
+            "docs/INVENTARIO-DE-PROYECTOS.md"
+            "plantillas/FICHA-DE-PROYECTO.md"
+            "plantillas/CONTROL-PREPUBLICACION.md"
+          )
+          missing=0
+          for file in "${required_files[@]}"; do
+            if [[ -s "$file" ]]; then
+              echo "OK: $file"
+            else
+              echo "ERROR: falta o está vacío: $file"
+              missing=1
+            fi
+          done
+          if [[ "$missing" -ne 0 ]]; then
+            exit 1
+          fi
+
+      - name: Comprobar que no se versionen secretos evidentes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-files | grep -E '(^|/)(\.env|credentials\.json|id_rsa|id_ed25519)$'; then
+            echo "ERROR: hay nombres de archivos que podrían contener secretos. Revisar manualmente."
+            exit 1
+          fi
+          echo "OK: no se detectaron nombres de archivos de secretos conocidos."
+
+# Este flujo no despliega páginas, no publica artefactos y no modifica otros repositorios.
+# La revisión de nombres de archivo no detecta todos los secretos; nunca guardar claves en Git.
