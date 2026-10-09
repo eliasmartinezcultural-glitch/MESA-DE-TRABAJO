@@ -1,60 +1,45 @@
-# Ficha de proyecto
+# Ficha viva de una idea · Ocarina
 
-## Identidad
-- **Nombre:**
-- **Repositorio / ubicación:**
-- **Responsable:**
-- **Estado:** idea / investigación / prototipo / activo / congelado / archivado
-- **Versión actual:**
-- **Última revisión:**
+Esta ficha es una ayuda, no un formulario obligatorio. Se puede empezar con una sola frase, una foto de referencia o una pregunta. Completar solo lo que se sepa; lo demás puede descubrirse durante la exploración.
 
-## Propósito
-- **Necesidad que resuelve:**
-- **Público principal:**
-- **Qué debe poder hacer la persona:**
-- **Qué no es / qué queda fuera:**
+## La chispa
+- **Nombre provisional o frase que la describe:**
+- **¿Qué me inspiró?**
+- **Imagen, escena, recuerdo, pregunta o sensación inicial:**
+- **¿Qué me gustaría descubrir, contar, imaginar o cambiar?**
 
-## Contenido y evidencia
-- **Fuentes prioritarias:**
-- **Datos por verificar:**
-- **Imágenes/sonidos/materiales necesarios:**
-- **Permisos y licencias:**
-- **Créditos obligatorios:**
+## Su relación con Chañar
+- **Tema:** historia / comunidad / fauna / flora / turismo / cultura / territorio / memoria / otro
+- **Lugar, persona, época, especie o tema relacionado:**
+- **¿Por qué vale la pena hacerlo?**
 
-## Experiencia
-- **Acción principal:**
-- **Recorrido de entrada:**
-- **Pantallas/secciones necesarias:**
-- **Móvil / escritorio:**
-- **Accesibilidad y lectura:**
+## Posibles formas
+- **Formatos que se me ocurren:** mapa / libro / dibujo / cómic / juego / sitio / app / documental / audio / exposición / actividad / combinación / todavía no sé
+- **¿Qué formato me entusiasma más y por qué?**
+- **Referencias, imágenes o ejemplos que me inspiran:**
 
-## Tecnología y límites
-- **Tecnología actual:**
-- **Dependencias:**
-- **Servicios externos:**
-- **Costos presentes o posibles:**
-- **Restricciones de estructura/funcionalidad:**
-- **¿Se permite publicar automáticamente?:** no por defecto
+## Primera prueba
+- **La parte más pequeña que podemos crear primero:**
+- **Qué queremos aprender con esa prueba:**
+- **Materiales y recursos disponibles:**
+- **Herramientas que ya tengo o podría probar:**
+- **Presupuesto:** idealmente gratuito / límite si lo hay
 
-## Plan de entrega
-- [ ] Estado inicial revisado
-- [ ] Alcance acordado
-- [ ] Fuentes y derechos revisados
-- [ ] Prototipo validado
-- [ ] Pruebas técnicas
-- [ ] Pruebas visuales
-- [ ] Revisión editorial
-- [ ] Aprobación de publicación
-- [ ] Recuperación/versionado preparado
+## Investigación y cuidados (cuando corresponda)
+- **Preguntas que necesitan investigación:**
+- **Fuentes o personas a consultar:**
+- **Qué sabemos / qué es hipótesis / qué es recreación:**
+- **Imágenes, música, testimonios o documentos y sus permisos:**
+- **Personas, comunidad, patrimonio, fauna o flora que requieren un cuidado especial:**
 
-## Registro de decisiones
-| Fecha | Decisión | Motivo/evidencia | Responsable |
-|---|---|---|---|
-| AAAA-MM-DD | | | |
+## Estado vivo
+- **Estado:** chispa / exploración / investigación / prototipo / creación / revisión / compartido / en pausa / archivado
+- **Qué descubrimos hasta ahora:**
+- **Decisiones tomadas y por qué:**
+- **Próximo paso concreto:**
+- **Qué no queremos perder de la idea original:**
 
-## Resultado y pendientes
-- **Qué se completó:**
-- **Qué se probó:**
-- **Qué no se pudo probar:**
-- **Riesgos/pendientes:**
-- **Cómo revertir:**
+## Registro breve
+| Fecha | Descubrimiento o decisión | Próximo paso |
+|---|---|---|
+| AAAA-MM-DD | | |
